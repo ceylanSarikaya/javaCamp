@@ -32,7 +32,7 @@ public class Main {
 		String[] krediler = { "Hýzlý kredi", "Mutlu kredi", "Cifci kredi", "Msb kredi" };
 //Git tek dolaþ bana verileri getir.
 //C# foreach
-// kodlar control+shift+f
+
 		for (String kredi : krediler) {
 			System.out.print(kredi);
 
@@ -70,5 +70,5 @@ public class Main {
 		sayilar2[0]=100;
 		System.out.print(sayilar1[0]);
 	}
-
+	// kodlar control+shift+f
 }
