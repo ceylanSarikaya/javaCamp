@@ -12,6 +12,15 @@ public class Main {
 		
 		System.out.println(product1.getUnitPriceAfterDiscount());
 		
+		
+		Category category = new Category();
+		category.setId(1);
+		category.setName("yiyicek");
+		
+		
+		
+		
+		
 //		product1.id = 1;
 //		product1.name = "Monster";
 //		product1.unitPrice = 15000;
