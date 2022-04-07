@@ -1,7 +1,7 @@
 package oopIntro;
 
 public class Category {
-	int id;
-	String name;
+private	int id;
+private String name;
 
 }
