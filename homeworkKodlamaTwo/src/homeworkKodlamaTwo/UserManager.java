@@ -1,17 +1,25 @@
 package homeworkKodlamaTwo;
 
 public class UserManager {
-	public void Add() {
-		System.out.println("EKLENDÝ");
-	}
-	public void Delete() {
+	
+	public void add(User user) {System.out.println("EKLENDÝ");}
+//	public void addAryy(User [] users) {
+//		for (User user : users) {
+//			add(user);
+//		}
+//		System.out.println("EKLENDÝ");
+//	}
+//	
+	public void delete(User user) {
 		System.out.println("Silindi");
 	}
-	public void Update() {
+	public void update(User user) {
 		System.out.println("Güncellendi");
 	}
-	public void Listed() {
+	public void listed(User user) {
 		System.out.println("Listelendi");
 	}
+
+	
 
 }
